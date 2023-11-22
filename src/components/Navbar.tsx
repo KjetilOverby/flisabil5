@@ -10,13 +10,10 @@ const Navbar = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://lh3.googleusercontent.com/pw/ADCreHceI-7bjLIMwc6ZPJOD1d5Bn1EtryI4teKfDemasJfDfFeDlWgQKNyikz01ljXb6Zvgee0QIuP3S0iM-jAxd3Si2bmehNifGeV0pTKM8bXzLzfjuIUGtgoRXobgZhcnT8UVjZvOwgaD1qgI9VyhTLXR=w1477-h325-s-no?authuser=0"
               className="h-8"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">
-              FLISA BIL
-            </span>
           </a>
           <button
             data-collapse-toggle="navbar-default"
@@ -50,7 +47,7 @@ const Navbar = () => {
                   className="block py-2 px-3 text-gray-600 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-gray-600 md:dark:text-blue-500"
                   aria-current="page"
                 >
-                  Home
+                  Hjem
                 </a>
               </li>
               <li>
@@ -58,7 +55,7 @@ const Navbar = () => {
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-600 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-600 md:dark:hover:bg-transparent"
                 >
-                  About
+                  Bruktbiler
                 </a>
               </li>
               <li>
@@ -66,7 +63,7 @@ const Navbar = () => {
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-600 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-600 md:dark:hover:bg-transparent"
                 >
-                  Services
+                  Verksted
                 </a>
               </li>
               <li>
@@ -74,7 +71,7 @@ const Navbar = () => {
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-600 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-600 md:dark:hover:bg-transparent"
                 >
-                  Pricing
+                  Bilxtra
                 </a>
               </li>
               <li>
@@ -82,7 +79,15 @@ const Navbar = () => {
                   href="#"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-600 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-600 md:dark:hover:bg-transparent"
                 >
-                  Contact
+                  Om oss
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-600 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-gray-600 md:dark:hover:bg-transparent"
+                >
+                  Kontakt oss
                 </a>
               </li>
             </ul>
